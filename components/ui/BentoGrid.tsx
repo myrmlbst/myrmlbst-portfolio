@@ -1,6 +1,9 @@
 import { cn } from "@/utils/cn";
 import React from "react";
+
 import {BackgroundGradient} from "@/components/ui/GradientBg";
+import MagicButton from "@/components/ui/MagicButton";
+import {FaLocationArrow} from "react-icons/fa";
 
 export const BentoGrid = ({
   className,
@@ -85,10 +88,20 @@ export const BentoGridItem = ({
           <div className={`font-sans font-bold text-lg lg:text-3xl max-w-96 z-10`}>
             {title}
           </div>
+
+          <a href="https://www.linkedin.com/in/myriamlb-/">
+            <div className="pt-2">
+              {id === 6 && (
+                <MagicButton title="Build with me"
+                             icon={<FaLocationArrow />}
+                             position="right"
+                />
+              )}
+            </div>
+          </a>
+
         </div>
-
       </div>
-
     </div>
   )
 }
