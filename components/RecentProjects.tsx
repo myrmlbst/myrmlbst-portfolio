@@ -7,7 +7,7 @@ const RecentProjects = () => {
   return (
     <div className="py-20" id="projects">
       <h1 className="heading ">
-        A brief collection of my {' '}
+        A Brief Collection of {' '}
         <span className="text-purple">Highlighted Projects</span>
         :
       </h1>
@@ -30,11 +30,11 @@ const RecentProjects = () => {
                 />
               </div>
 
-              <h1 className="font-bold lg:text-2xl md:text-xl text-base line-clamp-1">
+              <h1 className="font-bold lg:text-2xl md:text-xl text-base line-clamp-1 text-purple">
                 {title}
               </h1>
 
-              <p className="lg:text-xl lg:font-normal font-light text-sm line-clamp-2 text-white-100">
+              <p className="lg:text-xl lg:font-normal font-light text-sm line-clamp-2 text-white">
                 {des}
               </p>
 
@@ -54,7 +54,7 @@ const RecentProjects = () => {
 
                 <div className="flex justify-center items-center">
                   <p className="flex lg:text-xl md:text-xs text-purple">View Source Code</p>
-                  <FaLocationArrow className="ms-3" color="#CBACF9"/>
+                  <FaLocationArrow className="ms-3" color="#ACBFF9"/>
                 </div>
               </div>
             </PinContainer>
