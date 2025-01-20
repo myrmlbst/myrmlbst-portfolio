@@ -11,16 +11,18 @@ const RecentProjects = () => {
         <span className="text-purple">Highlighted Projects</span>
         :
         <p className="text-white-100 pt-20 pl-5 pr-5 font-normal text-lg">
-          The following projects are some of my proudest works;
+          The following projects are some of my proudest works,
           reflecting my ability to {' '}
-          <span className="text-purple font-bold">solve complex & real-world problems</span>, {' '}
-          <span className="text-purple font-bold">build with different technologies</span>,
-          and {' '}
-          <span className="text-purple font-bold">manage large codebases effectively</span>.
+          <span className="text-purple font-bold">build with various different technologies</span>,
+          {' '}
+          <span className="text-purple font-bold">manage large codebases efficiently</span>,
+
+          {' '} and {' '}
+          <span className="text-purple font-bold">solve complex, real-world problems effectively.</span>
           </p>
       </h1>
 
-      <div className="flex flex-wrap items-center justify-center p-4 gap-x-24 gap-y-8 mt-10">
+      <div className="flex flex-wrap items-center justify-center p-4 gap-x-24 gap-y-8 mt-0">
         {projects.map(({ id, title, des, img, iconLists, link }) => (
           <div key={id}
             className="sm:h-[41rem] lg:min-h-[32.5rem] h-[32rem] flex items-center justify-center sm:w-[570px] w-[80vw]"
