@@ -80,7 +80,7 @@ export const projects = [
     id: 2,
     title: "Amplify",
     des: "Social media app seamlessly connecting you to all your favorite bands' upcoming performances",
-    img: "",
+    img: "amplify-cover.jpeg",
     iconLists: [],
     link: "https://github.com/myrmlbst",
   },
