@@ -8,7 +8,8 @@ const RecentProjects = () => {
   return (
     <div className="py-20">
       <h1 className="heading">
-        A Brief Collection of {' '}
+        A Brief Collection of
+        {' '}
         <span className="text-purple">Highlighted Projects</span>
         :
         <p className="text-white-100 pt-20 pl-5 pr-5 font-normal text-lg">
@@ -89,6 +90,7 @@ const RecentProjects = () => {
           </div>
         ))}
       </div>
+
     </div>
   );
 };
