@@ -1,9 +1,15 @@
+'use client';
+
 import Hero from "@/components/hero";
-import {FloatingNav} from "@/components/ui/FloatingNav";
 import Grid from "@/components/Grid";
-import RecentProjects from "@/components/RecentProjects";
-import { navItems } from "@/data";
+// import RecentProjects from "@/components/RecentProjects";
+import {FloatingNav} from "@/components/ui/FloatingNav";
 import Footer from "@/components/Footer";
+
+import dynamic from "next/dynamic";
+import { navItems } from "@/data";
+
+const RecentProjects = dynamic(() => import('@/components/RecentProjects'), { ssr: false });
 
 export default function Home () {
   return (

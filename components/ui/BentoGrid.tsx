@@ -1,7 +1,6 @@
 import { cn } from "@/utils/cn";
 import React from "react";
 
-import {BackgroundGradient} from "@/components/ui/GradientBg";
 import MagicButton from "@/components/ui/MagicButton";
 import {FaLocationArrow} from "react-icons/fa";
 
@@ -33,7 +32,7 @@ export const BentoGridItem = ({
   img,
   imgClassName,
   titleClassName,
-  spareImg,
+  spareImg
 }: {
   className?: string;
   title?: string | React.ReactNode;
