@@ -89,7 +89,7 @@ export const projects = [
   {
     id: 3,
     title: "HoneyPot",
-    des: "Cybersecurity tool to identify malicious hackers in real-time by capturing their personal information",
+    des: "Defensive cybersecurity tool to track and identify malicious hackers in real-time via their shell prompts and commands",
     // tags: "Web Development, Cybersecurity",
     img: "amplify-cover.jpeg",
     iconLists: [],
